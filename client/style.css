@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background: url(../Assets/background.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+section article{
+   height: 70%;
+   width: 700px;
+   background-color: transparent;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(5px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0px 0px 40px white;
+   border-radius: 30px;
+   border: 2px solid red;
+
+}
+section article .one{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+section article .one form{
+    height: 90%;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+section article .one form h2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section article .one form input{
+    height: 40px;
+    width: 250px;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black ;
+    padding: 10px;
+    background: transparent;
+}
+section article .one form input::placeholder{
+    color: black;
+}
+section article .one form button{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(222, 202, 240);
+}
+section article .one form button{
+    cursor: pointer;
+}
+
+section article .two{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(108, 230, 108); */
+    background-color: transparent;
+    box-shadow: 0px 0px 40px white;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* margin-left: 20px; */
+   padding: 15px;
+
+   
+
+    /* background-color: rgb(16, 224, 224); */
+}
+section article .two h2{
+    /* width: ; */
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+section article .two p{
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font: 1em sans-serif; */
+
+}
+section article .two button{
+    background: transparent;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+}
